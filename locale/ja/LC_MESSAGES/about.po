@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Understanding JSON Schema 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../source/about.rst:4
 msgid "What is a schema?"
-msgstr ""
+msgstr "Schemaとは?"
 
 #: ../../source/about.rst:6
 msgid ""
@@ -22,6 +22,10 @@ msgid ""
 " that sounds like gobbledygook to you, you've come to the right place.  To "
 "define what JSON Schema is, we should probably first define what JSON is."
 msgstr ""
+"もしあなたがXML Schemaか、RelaxNGか、ASN.1を使ったことがあるなら"
+"あなたはたぶんschemaとは何なのか既にしっているので、次のセクションまで読み飛ばしても大丈夫です。"
+"もし、この言葉が難しく聞こえるなら、あなたはこの章を読むのにふさわしいでしょう。"
+"JSON Schemaとは何かを定義する前に、我々はまずJSONとは何かについて定義したほうがよいでしょう。"
 
 #: ../../source/about.rst:12
 msgid ""
