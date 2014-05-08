@@ -1,0 +1,67 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Understanding JSON Schema 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-09 06:08+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:7
+msgid "Understanding JSON Schema"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid ""
+"JSON Schema is a powerful tool for validating the structure of JSON data.  "
+"However, learning to use it by reading its specification is like learning to"
+" drive a car by looking at its blueprints.  You don't need to know how an "
+"internal combustion engine fits together if all you want to do is pick up "
+"the groceries.  This book, therefore, aims to be the friendly driving "
+"instructor for JSON Schema.  It's for those that want to write it and "
+"understand it, but maybe aren't interested in building their own car---er, "
+"writing their own JSON Schema validator---just yet."
+msgstr ""
+
+#: ../../source/index.rst:27
+msgid ""
+"This book describes JSON Schema draft 4.  Earlier versions of JSON Schema "
+"are not completely compatible with the format described here."
+msgstr ""
+
+#: ../../source/index.rst:31
+msgid "**Where to begin?**"
+msgstr ""
+
+#: ../../source/index.rst:33
+msgid ""
+"This book uses some novel `conventions <conventions>` for showing schema "
+"examples and relating JSON Schema to your programming language of choice."
+msgstr ""
+
+#: ../../source/index.rst:37
+msgid "If you're not sure what a schema is, check out `about`."
+msgstr ""
+
+#: ../../source/index.rst:39
+msgid ""
+"`basics` chapter should be enough to get you started with understanding the "
+"core `reference`."
+msgstr ""
+
+#: ../../source/index.rst:42
+msgid ""
+"When you start developing large schemas with many nested and repeated "
+"sections, check out `structuring`."
+msgstr ""
+
+#: ../../source/index.rst:45
+msgid ""
+"`json-schema.org <http://json-schema.org>`__ has a number of resources, "
+"including the official specification and tools for working with JSON Schema "
+"from various programming languages."
+msgstr ""

@@ -1,0 +1,142 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Understanding JSON Schema 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-09 06:08+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/reference/combining.rst:7
+msgid "Combining schemas"
+msgstr ""
+
+#: ../../source/reference/combining.rst:9
+msgid ""
+"JSON Schema includes a few keywords for combining schemas together. Note "
+"that this doesn't necessarily mean combining schemas from multiple files or "
+"JSON trees, though these facilities help to enable that and are described in"
+" `structuring`.  Combining schemas may be as simple as allowing a value to "
+"be validated against multiple criteria at the same time."
+msgstr ""
+
+#: ../../source/reference/combining.rst:16
+msgid ""
+"For example, in the following schema, the ``anyOf`` keyword is used to say "
+"that the given value may be valid against any of the given subschemas.  The "
+"first subschema requires a string with maximum length 5. The second "
+"subschema requires a number with a minimum value of 0.  As long as a value "
+"validates against *either* of these schemas, it is considered valid against "
+"the entire combined schema."
+msgstr ""
+
+#: ../../source/reference/combining.rst:39
+msgid "The keywords used to combine schemas are:"
+msgstr ""
+
+#: ../../source/reference/combining.rst:41
+msgid "`allOf`: Must be valid against *all* of the subschemas"
+msgstr ""
+
+#: ../../source/reference/combining.rst:42
+msgid "`anyOf`: Must be valid against *any* of the subschemas"
+msgstr ""
+
+#: ../../source/reference/combining.rst:43
+msgid "`oneOf`: Must be valid against *exactly one* of the subschemas"
+msgstr ""
+
+#: ../../source/reference/combining.rst:45
+msgid ""
+"All of these keywords must be set to an array, where each item is a schema."
+msgstr ""
+
+#: ../../source/reference/combining.rst:48
+msgid "In addition, there is:"
+msgstr ""
+
+#: ../../source/reference/combining.rst:50
+msgid "`not`: Must *not* be valid against the given schema"
+msgstr ""
+
+#: ../../source/reference/combining.rst:59
+#: ../../source/reference/combining.rst:52
+#: ../../source/reference/combining.rst:52
+msgid "allOf"
+msgstr ""
+
+#: ../../source/reference/combining.rst:61
+msgid ""
+"To validate against ``allOf``, the given data must be valid against all of "
+"the given subschemas."
+msgstr ""
+
+#: ../../source/reference/combining.rst:76
+msgid ""
+"Note that it's quite easy to create schemas that are logical impossibilities"
+" with ``allOf``.  The following example creates a schema that won't validate"
+" against anything (since something may not be both a string and a number at "
+"the same time):"
+msgstr ""
+
+#: ../../source/reference/combining.rst:100
+#: ../../source/reference/combining.rst:93
+#: ../../source/reference/combining.rst:93
+msgid "anyOf"
+msgstr ""
+
+#: ../../source/reference/combining.rst:102
+msgid ""
+"To validate against ``anyOf``, the given data must be valid against any (one"
+" or more) of the given subschemas."
+msgstr ""
+
+#: ../../source/reference/combining.rst:126
+#: ../../source/reference/combining.rst:119
+#: ../../source/reference/combining.rst:119
+msgid "oneOf"
+msgstr ""
+
+#: ../../source/reference/combining.rst:128
+msgid ""
+"To validate against ``oneOf``, the given data must be valid against exactly "
+"one of the given subschemas."
+msgstr ""
+
+#: ../../source/reference/combining.rst:149
+msgid ""
+"Note that it's possible to \"factor\" out the common parts of the "
+"subschemas.  The following schema is equivalent to the one above:"
+msgstr ""
+
+#: ../../source/reference/combining.rst:169
+#: ../../source/reference/combining.rst:161
+#: ../../source/reference/combining.rst:161
+msgid "not"
+msgstr ""
+
+#: ../../source/reference/combining.rst:171
+msgid ""
+"This doesn't strictly combine schemas, but it belongs in this chapter along "
+"with other things that help to modify the effect of schemas in some way.  "
+"The ``not`` keyword declares that a instance validates if it doesn't "
+"validate against the given subschema."
+msgstr ""
+
+#: ../../source/reference/combining.rst:176
+msgid ""
+"For example, the following schema validates against anything that is not a "
+"string:"
+msgstr ""
+
+#: ../../source/reference/combining.rst:1
+#: ../../source/reference/combining.rst:52
+#: ../../source/reference/combining.rst:93
+#: ../../source/reference/combining.rst:119
+#: ../../source/reference/combining.rst:161
+msgid "combining schemas"
+msgstr ""
