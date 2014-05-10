@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Understanding JSON Schema 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../source/index.rst:7
 msgid "Understanding JSON Schema"
-msgstr ""
+msgstr "わかる! JSON Schema"
 
 #: ../../source/index.rst:9
 msgid ""
@@ -26,38 +26,52 @@ msgid ""
 "understand it, but maybe aren't interested in building their own car---er, "
 "writing their own JSON Schema validator---just yet."
 msgstr ""
+"JSON SchemaはJSONデータの構造を検証するためのパワフルなツールです。"
+"しかし、それを使うためにその仕様を読むことは、車に乗るために車の設計書を見るのと似ています。"
+"買い物にいくために車の中のエンジンがどのように組み立てられているか知る必要はありません。"
+"したがって、この本は、JSON Schemaのための運転教官を志しています。"
+"この本は、JSON Schemaを書きたい人とJSON Schemaについて理解したいのために書かれています。"
+"なので、もしかすると自分で自分の車を作ることに感心がある人---たち、"
+"自分のJSON Schemaバリデーターを書きたい人---"
+"にとってはつまらないかもしれません。(今のところの話です)"
 
 #: ../../source/index.rst:27
 msgid ""
 "This book describes JSON Schema draft 4.  Earlier versions of JSON Schema "
 "are not completely compatible with the format described here."
 msgstr ""
+"この本はJSON Schema draft 4について解説しています。"
+"これより前のバージョンのJSON Schemaは、ここで紹介しているフォーマットと完全に互換性互換性があるわけではないので気をつけてください。"
 
 #: ../../source/index.rst:31
 msgid "**Where to begin?**"
-msgstr ""
+msgstr "**どこから読むといい?**"
 
 #: ../../source/index.rst:33
 msgid ""
 "This book uses some novel `conventions <conventions>` for showing schema "
 "examples and relating JSON Schema to your programming language of choice."
 msgstr ""
+"この本ではschemaの例を表示するのと、あなたが選択したプログラミング言語にJSON Schemaを関連付けるのに、いくつかの新しい `規約 <conventions>` を使います。"
 
 #: ../../source/index.rst:37
 msgid "If you're not sure what a schema is, check out `about`."
-msgstr ""
+msgstr "もしあなたがschemaとは何かについて自信がないなら `アバウト <about>` をチェックしてください。"
 
 #: ../../source/index.rst:39
 msgid ""
 "`basics` chapter should be enough to get you started with understanding the "
 "core `reference`."
 msgstr ""
+"`basics` の章を読めばはコアの `リファレンス <reference>` を読めるようになるでしょう。"
 
 #: ../../source/index.rst:42
 msgid ""
 "When you start developing large schemas with many nested and repeated "
 "sections, check out `structuring`."
 msgstr ""
+"たくさんネストしていて、繰り返し同じ部分が出てくるような、巨大なschemaの開発を始めるなら、"
+"`構造化 <structuring>` の章を読んでみてください。"
 
 #: ../../source/index.rst:45
 msgid ""
@@ -65,3 +79,5 @@ msgid ""
 "including the official specification and tools for working with JSON Schema "
 "from various programming languages."
 msgstr ""
+"`json-schema.org <http://json-schema.org>`__ は、"
+"オフィシャルな仕様やいろいろなプログラミング言語でJSON Schemaを操作するためのツールなどの情報が掲載されています。"
