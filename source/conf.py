@@ -336,3 +336,5 @@ epub_copyright = u'2013-2014, Space Telescope Science Institute'
 
 # If false, no index is generated.
 #epub_use_index = True
+locale_dirs = ['../locale']
+gettext_compact = False     # optional.
