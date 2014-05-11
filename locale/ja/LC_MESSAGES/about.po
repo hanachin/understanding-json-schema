@@ -35,22 +35,26 @@ msgid ""
 " to support there.  However, it has proven useful enough and simple enough "
 "that it is now used in many other contexts that don't involve web surfing."
 msgstr ""
+"JSONは \"JavaScript Object Notation\"の略で、シンプルなデータ交換用のフォーマットです。"
+"JSONはワールドワイドウェブのための記法として生まれました。"
+"JSONはJavaScriptをベースにしているので、JavaScriptがほとんどのウェブブラウザで使われるようになってから、ウェブブラウザ上でJSONをサポートするのは非常に簡単でした。"
+"いずれにしても、今ではウェブサーフィンのみならず様々な場面で使われていることが、それが十分使いやすく十分シンプルなことを証明してくれているでしょう。"
 
 #: ../../source/about.rst:19
 msgid "At its heart, JSON is built on the following data structures:"
-msgstr ""
+msgstr "本質的には、JSONは次のようなデータ構造で成り立っています"
 
 #: ../../source/about.rst:21
 msgid "object::"
-msgstr ""
+msgstr "オブジェクト::"
 
 #: ../../source/about.rst:25
 msgid "array::"
-msgstr ""
+msgstr "配列::"
 
 #: ../../source/about.rst:29
 msgid "number::"
-msgstr ""
+msgstr "数値::"
 
 #: ../../source/about.rst:31
 msgid "42 3.1415926"
@@ -58,11 +62,11 @@ msgstr ""
 
 #: ../../source/about.rst:34
 msgid "string::"
-msgstr ""
+msgstr "文字列::"
 
 #: ../../source/about.rst:38
 msgid "boolean::"
-msgstr ""
+msgstr "真偽値::"
 
 #: ../../source/about.rst:40
 msgid "true false"
@@ -70,7 +74,7 @@ msgstr ""
 
 #: ../../source/about.rst:43
 msgid "null::"
-msgstr ""
+msgstr "null::"
 
 #: ../../source/about.rst:45
 msgid "null"
@@ -81,6 +85,7 @@ msgid ""
 "These types have analogs in most programming languages, though they may go "
 "by different names."
 msgstr ""
+"これらの型はほとんどのプログラミング言語でみられますが、微妙に異なる名前で呼ばれています。"
 
 #: ../../source/about.rst:108
 msgid ""
@@ -90,6 +95,10 @@ msgid ""
 "example, you could imagine representing information about a person in JSON "
 "in different ways::"
 msgstr ""
+"このシンプルなデータ型は、全ての種類の構造化されたデータを表現できます。"
+"しかし、その素晴らしい柔軟性は大きな責任をもたらしました、"
+"同じ概念を無数の方法で表現することが出来たからです。"
+"例えば、個人の情報についてJSONで表現しようとしたとき、いくつもの方法でそれを表現することが想像できるでしょう::"
 
 #: ../../source/about.rst:132
 msgid ""
@@ -104,6 +113,16 @@ msgid ""
 "too much about the details for now.  They are explained in subsequent "
 "chapters."
 msgstr ""
+"2つの表現は同じものを表現していますが、片方はもう片方に比べるとより形式的なのが明らかだと思います。"
+"レコードをどのように設計するかは、アプリケーションの中でどう使おうと考えているかに大きく依存しています、"
+"なので、ここでは正しい答えも間違った答えもないのです。"
+"一方で、もしアプリケーションが\"僕に個人情報についてのJSONをくれよ\"と言ってきたとき、"
+"レコードがどのように構成されているか知ることは非常に大切です。"
+"例えば、我々はどの項目が期待されているか、そしてそれぞれの値がどのように表現されるかについても知る必要があります、"
+"これがJSON Schemaが必要な理由です。"
+"次のJSON Schemaの断片は、2つめの例がどのように構造化されているかを記述しています。"
+"今は詳細について分からなくても大丈夫です。"
+"細かいことは後ろの章で説明します。"
 
 #: ../../source/about.rst:184
 msgid ""
@@ -113,6 +132,7 @@ msgid ""
 "its weakness (which it shares with other similar schema languages).  It is "
 "easy to concisely describe the surface structure of data, and automate "
 "validating data against it.  However, since a JSON Schema can't contain "
+
 "arbitrary code, there are certain constraints on the relationships between "
 "data elements that can't be expressed.  Any \"validation tool\" for a "
 "sufficiently complex data format, therefore, will likely have two phases of "
@@ -120,3 +140,13 @@ msgid ""
 " level.  The latter check will likely need to be implemented using a more "
 "general-purpose programming language."
 msgstr ""
+"あなたはJSON Schema自身がJSONによって書かれているのに気づいたでしょう。"
+"それはデータ自身であって、コンピュータープログラムではありません。"
+"それはただ\"他のデータのデータ構造を説明したもの\"を宣言するためのフォーマットです。"
+"これはJSON Schemaの長所と短所です(似たようなスキーマ言語も同じ問題を共有しています)。"
+"それはデータ構造の上っ面について簡潔に説明したり、それに違反したデータを自動でバリデーションすることを容易にします。"
+
+"一方でJSON Schemaはコードを含むことができません、"
+"いかなる十分複雑なデータのための\"バリデーションツール\"も、"
+"バリデーションについて2つの側面を持つでしょう: 1つはスキーマ(あるいは構造)のレベルと、もう1つは意味的なレベルです。"
+"後者のチェックを実装するためには、より汎用的なプログラミング言語を使うことになるでしょう。"
